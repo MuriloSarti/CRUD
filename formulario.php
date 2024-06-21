@@ -106,6 +106,10 @@ if (isset($_POST['submit'])) {
             text-decoration: none;
             font-size: 20px;
         }
+
+        .hh {
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -115,7 +119,7 @@ if (isset($_POST['submit'])) {
         <form action="formulario.php" method="POST">
             <div>
 
-                <h1> Formulario clientes</h1>
+                <h1 class="hh"> Formulario clientes</h1>
                 <br>
                 <div class="inputBox">
                     <input type="text" name="nome" id="nome" class="inputUser" required>

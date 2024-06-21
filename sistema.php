@@ -91,6 +91,10 @@ $result = $conexao->query($sql);
             left: 430px;
             position: relative;
         }
+
+        .stma {
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -112,7 +116,7 @@ $result = $conexao->query($sql);
     <br>
     <br>
     <br>
-    <h1>Aqui esta todos os usuarios cadastrados</h1>
+    <h1 class="stma">Aqui esta todos os usuarios cadastrados</h1>
     <div class="">
         <table id="example" class=" table-striped tabelas" style="width:1000px">
             <thead>
@@ -180,7 +184,7 @@ $result = $conexao->query($sql);
             confirmButtonColor: "#3085d6",
             cancelButtonColor: "#d33",
             confirmButtonText: "Sim!",
-            cancelButtonText: "Não!"
+            cancelButtonText: "Cancelar!"
         }).then((result) => {
             if (result.isConfirmed) {
                 Swal.fire({

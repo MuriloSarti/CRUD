@@ -83,7 +83,7 @@
             text-decoration: none;
             top: 30px;
             position: relative;
-            left: 50px;
+            left: 100px;
             font-size: 20px;
         }
 
@@ -100,9 +100,9 @@
         <h1 class="h1">Login</h1>
         <form action="testLogin.php" method="POST">
 
-            <input type="email" name="email" placeholder="Email" class="inputUser">
+            <input type="email" name="email" placeholder="Email" class="inputUser" required>
             <br><br>
-            <input type="password" name="senha" placeholder="Senha" class="inputUser">
+            <input type="password" name="senha" placeholder="Senha" class="inputUser" required>
             <br><br>
             <input class="inputSubmit" type="submit" name="submit" value="Enviar">
             <a class="cda" href="formulario.php">Cadastre-se</a>
