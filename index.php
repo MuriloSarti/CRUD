@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="lampada.png" type="image/x-icon">
-    <title>Tela de login</title>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
@@ -19,9 +18,9 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            padding: 80px;
-            border-radius: 15px;
+            padding: 100px;
             color: #fff;
+            width: 300px;
         }
 
         input {
@@ -34,9 +33,9 @@
         .inputSubmit {
             background-color: white;
             border: none;
-            padding: 15px;
+            padding: 10px;
             width: 100%;
-            border-radius: 10px;
+            border-radius: 4px;
             color: white;
             font-size: 15px;
             color: black;
@@ -65,7 +64,7 @@
         .inputUser {
             background: none;
             border: none;
-            border-bottom: 1px solid white;
+            border-bottom: 1px solid ;
             outline: none;
             color: white;
             font-size: 15px;
@@ -88,12 +87,17 @@
             font-size: 20px;
         }
 
+        .h1 {
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
     </style>
 </head>
 
 <body>
     <div>
-        <h1>Login</h1>
+        <h1 class="h1">Login</h1>
         <form action="testLogin.php" method="POST">
 
             <input type="email" name="email" placeholder="Email" class="inputUser">
